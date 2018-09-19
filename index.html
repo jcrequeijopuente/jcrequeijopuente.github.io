@@ -1,566 +1,688 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+    <meta charset="utf-8" />
+    <title>José Carlos Requeijo Puente - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Portfolio | José Carlos Requeijo Puente</title>
-	<meta name="description" content="Portfolio personal de José Carlos Requeijo Puente">
-	<meta name="author" content="José Carlos Requeijo Puente">
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/skins/yellow.css" />
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">
-
-   <!-- script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
-
-   <!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
+    <!-- Template JS Files -->
+    <script src="js/modernizr.custom.js"></script>
 
 </head>
 
-<body id="top">
-
-	<!-- header
-   ================================================== -->
-   <header>
-   	<div class="row">
-
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
-		      </div>
-
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Inicio</a></li>
-						<li><a class="smoothscroll" href="#about" title="">Sobre m&iacute;</a></li>
-						<li><a class="smoothscroll" href="#resume" title="">Curriculum</a></li>
-						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll" href="#contact" title="">Contacto</a></li>
-					</ul>
-				</nav>
-   		</div> <!-- /top-bar -->
-   	</div> <!-- /row -->
-   </header> <!-- /header -->
-
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">
-
-   	<div class="intro-overlay"></div>
-
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-	   			<h5>Hola, mundo!</h5>
-	   			<h1>José Carlos<br>Requeijo Puente</h1>
-
-	   			<p class="intro-position">
-	   				<span>Desarrollador PHP</span>
-	   				<span>Ingeniero Informático</span>
-	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">Sobre mi</a>
-
-	   		</div>
-
-   		</div>
-   	</div> <!-- /intro-content -->
-
-   	<ul class="intro-social">
-         <li><a target="_blank" href="https://www.facebook.com/jcrequeijopuente"><i class="fa fa-facebook"></i></a></li>
-         <li><a target="_blank" href="https://twitter.com/JcRequeijo"><i class="fa fa-twitter"></i></a></li>
-         <li><a target="_blank" href="https://github.com/jcrequeijopuente"><i class="fa fa-github"></i></a></li>
-         <li><a target="_blank" href="https://www.linkedin.com/in/jcrequeijopuente"><i class="fa fa-linkedin-square"></i></a></li>
-      </ul> <!-- /intro-social -->
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Sobre mi</h5>
-   			<h1>Permita que me presente.</h1>
-
-   			<div class="intro-info">
-
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
-
-   				<p class="lead">Ingeniero inform&aacute;tico con experiencia en an&aacute;lisis, desarrollo y mantenimiento de productos y proyectos inform&aacute;ticos. Atenci&oacute;n y soporte a usuarios con capacidad de trabajo en equipo y flexibilidad en nuevos entornos. Actualmente desarrollando en Drupal 7 y form&aacute;ndome tanto en Angular 4 como Drupal 8.</p>
-   			</div>
-
-   		</div>
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-
-		<div class="col-full tab-full">
-			<h3>Perfil</h3>
-   			<p>Versatilidad tanto en lenguajes de programaci&oacute;n (C, C++, PHP y Java), como en la tipolog&iacute;a del sistema: ticketing, mailing masivo, ventas en tiendas, gestor documental, plataformas de formaci&oacute;n y contrataci&oacute;n, portal web, metadataci&oacute;n Marc21 de im&aacute;genes y/o creaci&oacute;n de servicios web.</p>
-		</div>
-
-   		<div class="col-six tab-full">
-   			<ul class="info-list">
-   				<li>
-   					<strong>Nombre completo:</strong>
-   					<span>Jos&eacute; Carlos Requeijo Puente</span>
-   				</li>
-   				<li>
-   					<strong>Nacimiento:</strong>
-   					<span>25 de Marzo de 1980</span>
-   				</li>
-   				<li>
-   					<strong>Empleo:</strong>
-   					<span>Analista y programador web</span>
-   				</li>
-   				<li>
-   					<strong>Correo electr&oacute;nico:</strong>
-   					<span><a href="mailto:jc.requeijopuente@gmail.com">jc.requeijopuente@gmail.com</a></span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
-
-   		</div>
-
-   		<div class="col-six tab-full">
-
-   			<h3>Habilidades</h3>
-
-				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>PHP (nativo, Drupal 6 y 7)</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>Java (Spring, Struts2)</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>MySQL y ORACLE</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>Dise&ntilde;o responsive</strong>
-				   </li>
-
-				</ul> <!-- /skill-bars -->
-
-   		</div>
-
-   	</div>
-
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">¿Hablamos?</a>
-   			<a href="docs/cv_JCRP.pdf" title="Download CV" class="button button-primary">Descarga mi CV</a>
-   		</div>
-   	</div>
-
-   </section> <!-- /process-->
-
-
-   <!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-
-		<div class="row section-intro">
-	   		<div class="col-twelve">
-	   			<h1>Curriculum</h1>
-	   		</div>
-   	</div> <!-- /section-intro-->
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Experiencia laboral</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Analista programador</h3>
-	   					<p>Ene 2006 - actualidad</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Agencia Andaluza de Instituciones Culturales</h4>
-	   					<p>
-	   						<ul>
-	   							<li>Realizar las labores de colaboración en el análisis de proyectos, desarrollo e implantación.</li>
-	   							<li>Realizar tareas de análisis técnico de los productos y servicios que se le encarguen.</li>
-	   							<li>Realizar tareas de mantenimiento y administración para garantizar el correcto funcionamiento de las aplicaciones informáticas de acuerdo a las necesidades de la organización.</li>
-	   							<li>Realizar tareas de soporte a los usuarios de las aplicaciones informáticas en el uso de las mismas y las tareas necesarias para la resolución de incidencias técnicas.</li>
-	   							<li>Mantener los productos operativos con un óptimo nivel de servicio.</li>
-	   						</ul>
-	   					</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Programador Junior</h3>
-	   					<p>Mar 2005 - Ene 2006</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Isotrol</h4>
-	   					<p>Programador Junior encargado del desarrollo y mantenimiento de aplicaciones web</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Becario</h3>
-	   					<p>Nov 2001 - Ago 2002</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Facultad de Ciencias de la Universidad de Cádiz</h4>
-	   					<p>Beca para la composición, desarrollo y elaboración de los informes 2001 y 2002 de Rendimientos Académicos de la Facultad de Ciencias.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->
-
-   		</div> <!-- /col-twelve -->
-
-   	</div> <!-- /resume-timeline -->
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Educaci&oacute;n</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Ingeniero Informático<br>MECES 3</h3>
-	   					<p>2003 - 2006</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Universidad de Sevilla</h4>
-	   					<p>P.F.C. "Desarrollo de un portal sobre videojuegos" con calificación de Matrícula de Honor ( PHP 4.3, Apache 1.3 y MySQL 4.1 )</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Ingeniero Técnico en Informática de Gestión<br>MECES 2</h3>
-	   					<p>1998 - 2003</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Universidad de Cádiz</h4>
-	   					<p>P.F.C. "Sistema de Auditoría en Linux" con calificación de Sobresaliente ( Kdevelop 2.1, librerías Qt 3.0 y MySQL 3.23 )</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->
-
-   		</div> <!-- /col-twelve -->
-
-   	</div> <!-- /resume-timeline -->
-
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Portfolio</h5>
-   			<h1>Vea algunos de mis trabajos.</h1>
-
-   			<p class="lead">Con mucho trabajo y gracias a unos compañeros excepcionales hemos conseguido desarrollar unas webs de muy buena calidad. Les muestro los productos en los que m&aacute;s he participado:</p>
-
-   		</div>
-   	</div> <!-- /section-intro-->
-
-   	<div class="row portfolio-content">
-
-   		<div class="col-twelve">
-
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-				<!-- 	PORTAL CAL		-->
-				<div class="bgrid folio-item"><div class="item-wrap">
-	               	<img src="images/portfolio/cal.jpg" alt="¿¿??">
-	               	<a href="#modal-cal" class="overlay"><div class="folio-item-table">
-	               		<div class="folio-item-cell">
-	               			<h3 class="folio-title">pr&oacute;ximamente</h3>
-	               			<span class="folio-types">Desarrollo Web</span>
-	               		</div>
-	               	</div></a>
-	            </div></div> <!-- /folio-item -->
-				<div id="modal-cal" class="popup-modal slider mfp-hide">
-					<div class="media"><img src="images/portfolio/modals/m-cal.jpg" alt="" /></div>
-					<div class="description-box">
-						<h4>Pr&oacute;ximamente</h4>
-						<p></p>
-						<div class="categories">Desarrollo Web - Drupal 7 - Diseño Responsive</div>
-					</div>
-					<div class="link-box">
-						<!--<a href="#" target="_blank">Web</a>-->
-						<a href="#" class="popup-modal-dismiss">Cerrar</a>
-					</div>
-				</div> <!-- /modal-cal -->
-
-				<!-- 	PORTAL IAF		-->
-				<div class="bgrid folio-item"><div class="item-wrap">
-	               	<img src="images/portfolio/iaf.jpg" alt="Instituto Andaluz del Flamenco">
-	               	<a href="#modal-iaf" class="overlay"><div class="folio-item-table">
-	               		<div class="folio-item-cell">
-	               			<h3 class="folio-title">Instituto Andaluz del Flamenco</h3>
-	               			<span class="folio-types">Desarrollo Web</span>
-	               		</div>
-	               	</div></a>
-	            </div></div> <!-- /folio-item -->
-				<div id="modal-iaf" class="popup-modal slider mfp-hide">
-					<div class="media"><img src="images/portfolio/modals/m-iaf.jpg" alt="" /></div>
-					<div class="description-box">
-						<h4>Instituto Andaluz del Flamenco</h4>
-						<p>El Instituto Andaluz del Flamenco. Es el organismo creado en 2005 por la Consejería de Cultura de la Junta de Andalucía para aunar todas las políticas en materia de flamenco emprendidas por la Administración. Vela por un arte que es Patrimonio de la Humanidad y que el artículo 68 del Estatuto de Autonomía define como un "elemento singular del patrimonio cultural andaluz".</p>
-						<div class="categories">Desarrollo Web - Drupal 7 - Diseño Responsive</div>
-					</div>
-					<div class="link-box">
-						<a href="https://www.juntadeandalucia.es/cultura/flamenco/" target="_blank">Web</a>
-						<a href="#" class="popup-modal-dismiss">Cerrar</a>
-					</div>
-				</div> <!-- /modal-iaf -->
-
-				<!-- 	PORTAL BFA		-->
-	         	<div class="bgrid folio-item"><div class="item-wrap">
-	         		<img src="images/portfolio/bfa.jpg" alt="Ballet Flamenco de Andalucía">
-	                <a href="#modal-bfa" class="overlay"><div class="folio-item-table">
-	                	<div class="folio-item-cell">
-	                		<h3 class="folio-title">Ballet Flamenco de Andalucía</h3>
-	                		<span class="folio-types">Desarrollo Web</span>
-	                	</div>
-	                </div></a>
-	            </div></div> <!-- /folio-item -->
-	            <div id="modal-bfa" class="popup-modal slider mfp-hide">
-	            	<div class="media"><img src="images/portfolio/modals/m-bfa.jpg" alt="" /></div>
-	            	<div class="description-box">
-	            		<h4>Ballet Flamencn de Andalucía</h4>
-	            		<p>El Ballet Flamenco de Andalucía, compañía institucional de danza de la Junta de Andalucía, el cual representa a esta comunidad y le pone cara a su arte más singular en escenarios de todo el mundo donde cosecha importantes logros como compañía artística —con gran éxito de público y crítica— que han sido reconocidos en su historia por ejemplo con el Premio Nacional de Coreografía o un Premio Max a la mejor interpretación femenina de danza.</p>
-	            		<div class="categories">Desarrollo Web - Drupal 7 - Diseño Responsive</div>
-					</div>
-					<div class="link-box">
-						<a href="https://www.juntadeandalucia.es/cultura/flamenco/ballet-flamenco-andalucia" target="_blank">Web</a>
-						<a href="#" class="popup-modal-dismiss">Cerrar</a>
-					</div>
-				</div> <!-- /modal-bfa -->
-
-
-				<!-- 	PORTAL CDAEA	-->
-	         	<div class="bgrid folio-item"><div class="item-wrap">
-	         		<img src="images/portfolio/cdaea.jpg" alt="Centro de Documentación de las Artes Escénicas de Andalucía">
-	                <a href="#modal-cdaea" class="overlay"><div class="folio-item-table">
-	                	<div class="folio-item-cell">
-	                		<h3 class="folio-title">Centro de Documentación de las Artes Escénicas de Andalucía</h3>
-	                		<span class="folio-types">Desarrollo Web</span>
-	                	</div>
-	                </div></a>
-	            </div></div> <!-- /folio-item -->
-	            <div id="modal-cdaea" class="popup-modal slider mfp-hide">
-	            	<div class="media"><img src="images/portfolio/modals/m-cdaea.jpg" alt="" /></div>
-	            	<div class="description-box">
-	            		<h4>Centro de Documentación de las Artes Escénicas de Andalucía</h4>
-	            		<p>Tras 20 años de funcionamiento, el Centro de Documentación de las Artes Escénicas de Andalucía de la Consejería de Cultura, mantiene una clara vocación de servicio público con las funciones específicas de localizar, recoger, conservar, analizar y difundir la documentación e información del teatro y la danza en Andalucía. Las líneas maestras de trabajo se concretan, por una parte, en actuaciones basadas en la adquisición, investigación, tratamiento y conservación del patrimonio escénico documental, fijando la memoria del hecho escénico.</p>
-	            		<div class="categories">Desarrollo Web - Drupal 7 - Diseño Responsive Web</div>
-					</div>
-					<div class="link-box">
-						<a href="https://www.juntadeandalucia.es/cultura/redportales/cdaea" target="_blank">Web</a>
-						<a href="#" class="popup-modal-dismiss">Cerrar</a>
-					</div>
-				</div> <!-- /modal-cdaea -->
-
-
-				<!-- 	PORTAL ELEKTRA	-->
-	         	<div class="bgrid folio-item"><div class="item-wrap">
-	         		<img src="images/portfolio/elektra.jpg" alt="Archivo Digital de las Artes Escénicas de Andalucía. Elektra">
-	                <a href="#modal-elektra" class="overlay"><div class="folio-item-table">
-	                	<div class="folio-item-cell">
-	                		<h3 class="folio-title">Archivo Digital de las Artes Escénicas de Andalucía. Elektra</h3>
-	                		<span class="folio-types">Desarrollo Web</span>
-	                	</div>
-	                </div></a>
-	            </div></div> <!-- /folio-item -->
-	            <div id="modal-elektra" class="popup-modal slider mfp-hide">
-	            	<div class="media"><img src="images/portfolio/modals/m-elektra.jpg" alt="" /></div>
-	            	<div class="description-box">
-	            		<h4>Archivo Digital de las Artes Escénicas de Andalucía. Elektra</h4>
-	            		<p>Elektra es el Archivo Digital de las Artes Escénicas de Andalucía que contiene un conjunto organizado de documentación gráfica (programas, carteles, bocetos de escenografía y vestuario, fotografías, noticias de prensa, audiovisuales, ...) que conforman la memoria de las artes escénicas de nuestra comunidad. En ella se recogen los documentos relacionados con cualquier actividad de Teatro o Danza que tienen un interés especial para el conocimiento, la puesta en valor y la difusión de las Artes Escénicas en particular y de la Cultura andaluza en general. </p>
-	            		<div class="categories">Desarrollo Web - Java - Spring - Struts2</div>
-					</div>
-					<div class="link-box">
-						<a href="https://www.juntadeandalucia.es/cultura/cdaea/elektra" target="_blank">Web</a>
-						<a href="#" class="popup-modal-dismiss">Cerrar</a>
-					</div>
-				</div> <!-- /modal-elektra -->
-
-	         </div> <!-- /portfolio-wrapper -->
-
-   		</div>  <!-- /twelve -->
-
-   	</div> <!-- /portfolio-content -->
-
-	</section> <!-- /portfolio -->
-
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Contacto</h5>
-   			<h1>¿Tiene dudas o quiere plantearme alguna cuesti&oacute;n?</h1>
-
-   		</div>
-   	</div> <!-- /section-intro -->
-
-   	<div class="row contact-form">
-
-
-
-
-         <div class="row contact-info">
-
-   		<div class="col-four tab-full"><br/></div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Mándame un correo electrónico a:</h5>
-
-   			<p><a style="color:white" href="mailto:jc.requeijopuente@gmail.com">jc.requeijopuente@gmail.com</a></p>
-
-   		</div>
-
-   		<div class="col-four tab-full"><br/></div>
-
-   	</div>
-
-   	</div> <!-- /contact-form -->
-
-	</section> <!-- /contact -->
-
-
-   <!-- footer
-   ================================================== -->
-
-   <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-     			<ul class="footer-social">
-			     <li><a target="_blank" href="https://www.facebook.com/jcrequeijopuente"><i class="fa fa-facebook"></i></a></li>
-		         <li><a target="_blank" href="https://twitter.com/JcRequeijo"><i class="fa fa-twitter"></i></a></li>
-		         <li><a target="_blank" href="https://github.com/jcrequeijopuente"><i class="fa fa-github"></i></a></li>
-		         <li><a target="_blank" href="https://www.linkedin.com/in/jcrequeijopuente"><i class="fa fa-linkedin-square"></i></a></li>
-			   </ul>
-
-	      </div>
-
-      	<div class="col-six tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright Kards 2016.</span>
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
-		         </div>
-	      	</div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
-
-      	</div> <!-- /row -->
-   </footer>
-
-   <div id="preloader">
-    	<div id="loader"></div>
-   </div>
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
-
+<body class="dark">
+    <!-- Preloader Start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+        <div id="bl-main" class="bl-main">
+            <!-- Top Left Section Starts -->
+            <section class="topleft">
+                <div class="bl-box row valign-wrapper">
+                    <div class="row valign-wrapper">
+                        <div class="title-heading">
+                            <div class="selector uppercase" id="selector">
+                                <h3 class="ah-headline p-none m-none">
+                                    <span class="font-weight-300">Hola ! Soy </span>
+                                    <span class="ah-words-wrapper">
+										<b class="is-visible">Jos&eacute; Carlos Requeijo Puente</b>
+										<b>Desarrollador PHP</b>
+										<b>Ingeniero Inform&aacute;tico</b>
+									</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Top Left Section Ends -->
+            <!-- About Section Starts -->
+            <section>
+                <!-- About Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">Sobre Mi</span>
+                        <h2 class="center-align">
+                            <span data-hover="Mi">Mi </span>
+                            <span data-hover="Curriculum">Curriculum</span>
+                        </h2>
+                    </div>
+                </div>
+                <!-- About Title Ends -->
+                <!-- About Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="Mi">Mi </span>
+                            <span data-hover="Curriculum">Curriculum</span>
+                        </h2>
+                        <span class="title-bg">Sobre Mi</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container infos">
+						<!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-vcard" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+						<!-- Divider Ends -->
+						<!-- Personal Informations Starts -->
+                        <div class="row">
+							<!-- Picture Starts -->
+                            <div class="col s12 m5 l4 xl3 profile-picture">
+								<img src="images/photo-about.jpg" class="responsive-img my-picture" alt="My Photo">
+                            </div>
+							<!-- Picture Ends -->
+                            <div class="col s12 m7 l8 xl9 personal-info">
+                                <h6 class="uppercase"><i class="fa fa-user"></i>&nbsp;Perfil</h6>
+								<div class="col m12 l7 xl7 p-none">
+									<p class="second-font">Soy un Desarrollador PHP en Sevilla, Espa&ntilde;a.<br>
+									Ingeniero inform&aacute;tico con experiencia en an&aacute;lisis, desarrollo y mantenimiento de productos y proyectos inform&aacute;ticos. Atenci&oacute;n y soporte a usuarios con capacidad de trabajo en equipo y flexibilidad en nuevos entornos. Actualmente desarrollando en Drupal 7 y form&aacute;ndome tanto en Angular 4 como Drupal 8.
+									</p>
+								</div>
+                                <div class="col s12 m12 l6 p-none">
+                                    <ul class="second-font list-1">
+                                        <li><span class="font-weight-600">Nombre: </span>Jos&eacute; Carlos</li>
+                                        <li><span class="font-weight-600">Apellidos: </span>Requeijo Puente</li>
+                                        <li><span class="font-weight-600">Nacimiento: </span>25 Marzo 1980</li>
+                                    </ul>
+                                </div>
+                                <div class="col s12 m12 l6 p-none">
+                                    <ul class="second-font list-2">
+                                        <li><span class="font-weight-600">LinkedIn: </span><a href='https://www.linkedin.com/in/jcrequeijopuente/'>jcrequeijopuente</a></li>
+                                        <li><span class="font-weight-600">Tel&eacute;fono: </span>+34 635 21 22 08</li>
+                                        <li><span class="font-weight-600">Correo electr&oacute;nico: </span><a href="mailto:jcrequeijopuente@gmail.com">jcrequeijopuente@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                                <a href="docs/cv_JCRP.pdf" class="col s12 m12 l4 xl4 btn btn-blog font-weight-500">
+									Descargar CV <i class="fa fa-file-pdf-o"></i>
+								</a>
+                            </div>
+                        </div>
+						<!-- Personal Informations Ends -->
+                    </div>
+					<!-- Resume Starts -->
+					<div class="resume-container">
+                        <div class="container">
+                            <div class="valign-wrapper row">
+								<!-- Resume Menu Starts -->
+                                <div class="resume-list col l4">
+                                    <div class="resume-list-item is-active" data-index="0" id="resume-list-item-0">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-briefcase"></i> Experiencia</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="1" id="resume-list-item-1">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-graduation-cap"></i> Educaci&oacute;n</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="2" id="resume-list-item-2">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-star"></i> Habilidades</h6>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- Resume Menu Ends -->
+								<!-- Resume Content Starts -->
+                                <div class="col s12 m12 l8 resume-cards-container">
+                                    <div class="resume-cards">
+										<!-- Experience Starts -->
+                                        <div class="resume-card resume-card-0" data-index="0">
+											<!-- Experience Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-briefcase"></i> Experiencia</div>
+                                            </div>
+											<!-- Experience Header Title Ends -->
+											<!-- Experience Content Starts -->
+                                            <div class="resume-card-body experience">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Analista programador - </span>Agencia Andaluza de Instituciones Culturales</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> Ene 2006 - actualidad</span>
+														<p>
+                                                        Realizar las labores de colaboración en el análisis de proyectos, desarrollo e implantación.<br/>
+                                                        Realizar tareas de análisis técnico de los productos y servicios que se le encarguen.<br/>
+                                                        Realizar tareas de mantenimiento y administración para garantizar el correcto funcionamiento de las aplicaciones informáticas de acuerdo a las necesidades de la organización.<br/>
+                                                        Realizar tareas de soporte a los usuarios de las aplicaciones informáticas en el uso de las mismas y las tareas necesarias para la resolución de incidencias técnicas.<br/>
+                                                        Mantener los productos operativos con un óptimo nivel de servicio.</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Programador Junior - </span>Isotrol</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> Mar 2005 - Ene 2006</span>
+														<p>Programador Junior encargado del desarrollo y mantenimiento de aplicaciones web</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Becario - </span>Facultad de Ciencias de la Universidad de Cádiz</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> Nov 2001 - Ago 2002</span>
+														<p>Beca para la composición, desarrollo y elaboración de los informes 2001 y 2002 de Rendimientos Académicos de la Facultad de Ciencias.</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                </div>
+                                            </div>
+											<!-- Experience Content Starts -->
+                                        </div>
+										<!-- Experience Ends -->
+										<!-- Education Starts -->
+                                        <div class="resume-card resume-card-1" data-index="1">
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-graduation-cap"></i> Educaci&oacute;n</div>
+                                            </div>
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-body education">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Ingeniero Informático - </span>Universidad de Sevilla</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2003 - 2006</span>
+														<p>P.F.C. "Desarrollo de un portal sobre videojuegos" con calificación de Matrícula de Honor ( PHP 4.3, Apache 1.3 y MySQL 4.1 )</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Ingeniero Técnico en Informática de Gestión - </span>Universidad de Cádiz</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2011 - 2015</span>
+														<p>P.F.C. "Sistema de Auditoría en Linux" con calificación de Sobresaliente ( Kdevelop 2.1, librerías Qt 3.0 y MySQL 3.23 )</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Education Ends -->
+										<!-- Skills Starts -->
+                                        <div class="resume-card resume-card-2" data-index="2">
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-star"></i> Habilidades</div>
+                                            </div>
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-body skills">
+                                                <div class="resume-card-body-container second-font">
+                                                    <div class="row">
+														<!-- Skills Row Starts -->
+                                                        <div class="col s6">
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">php</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">javascript & jquery</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">angular</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">html</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                            <!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+                                                                <h6 class="uppercase">java</h6>
+                                                                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+                                                            <!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">mysql</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                        </div>
+														<!-- Skills Row Ends -->
+														<!-- Skills Row Starts -->
+                                                        <div class="col s6">
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">drupal</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">wordpress</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">bootstrap</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">css & less</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                            <!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+                                                                <h6 class="uppercase">spring (hibernate & struts)</h6>
+                                                                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+                                                            <!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">oracle</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                        </div>
+														<!-- Skills Row Ends -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Skills Ends -->
+                                    </div>
+                                </div>
+								<!-- Resume Content Ends -->
+                            </div>
+                        </div>
+                    </div>
+					<!-- Resume Ends -->
+					<!-- Fun Facts Starts -->
+                    <div class="container badges">
+                        <div class="row">
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m3 l3 center-align">
+                                <h3>
+                                    <i class="fa fa-suitcase"></i>
+									<span class="font-weight-700">+13</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Años de Experiencia</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m3 l3 center-align">
+                                 <h3>
+                                    <i class="fa fa-book"></i>
+                                    <span class="font-weight-700">+20</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Cursos Formación</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m3 l3 center-align">
+                                <h3>
+                                    <i class="fa fa-code"></i>
+									<span class="font-weight-700">90%</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Proyectos PHP</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m3 l3 center-align">
+                                 <h3>
+                                    <i class="fa fa-code"></i>
+									<span class="font-weight-700">10%</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Proyectos JAVA</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                        </div>
+                    </div>
+					<!-- Fun Facts Ends -->
+                </div>
+                <!-- End Expanded About -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- About Ends -->
+            <!-- Portfolio Starts -->
+            <section id="bl-work-section">
+				<!-- Portfolio Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">Trabajos</span>
+                        <h2 class="center-align">
+                            <span data-hover="mi">mi </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Portfolio Title Ends -->
+                <!-- Portfolio Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="mi">mi </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                        <span class="title-bg">Trabajos</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-suitcase" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row center-align da-thumbs" id="bl-work-items">
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-cal">
+                                <a href="#">
+                                    <img class="responsive-img" src="images/projects/cal/1.jpg" alt="Project" />
+                                    <div class="valign-wrapper"><span class="font-weight-400 uppercase">Centro Andaluz de las Letras</span></div>
+                                </a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-bfa">
+                                <a href="#">
+                                    <img class="responsive-img" src="images/projects/bfa/1.jpg" alt="Project" />
+                                    <div class="valign-wrapper"><span class="font-weight-400 uppercase">Ballet Flamencn de Andalucía</span></div>
+                                </a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-iaf">
+                                <a href="#">
+                                    <img class="responsive-img" src="images/projects/iaf/1.jpg" alt="Project" />
+                                    <div class="valign-wrapper"><span class="font-weight-400 uppercase">Instituto Andaluz del Flamenco</span></div>
+                                </a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-cdaea">
+                                <a href="#">
+                                    <img class="responsive-img" src="images/projects/cdaea/1.jpg" alt="Project" />
+                                    <div class="valign-wrapper"><span class="font-weight-400 uppercase">Centro de Documentación de las Artes Escénicas de Andalucía</span></div>
+                                </a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-elektra">
+                                <a href="#">
+									<img class="responsive-img" src="images/projects/elektra/1.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Archivo Digital de las Artes Escénicas de Andalucía. Elektra</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Expanded Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Portfolio Section Ends -->
+            <!-- Contact Section Starts -->
+            <section>
+				<!-- Contact Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">Contacto</span>
+                        <h2 class="center-align">
+                            <span data-hover="en">en </span>
+                            <span data-hover="contacto">contacto</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Contact Title Ends -->
+                <!-- Expanded Contact Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="en">en </span>
+                            <span data-hover="contacto">contacto</span>
+                        </h2>
+						<span class="title-bg">Contacto</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-envelope-open" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row contact" style="width: 85vmin; text-align: center">
+							<!-- Contact Infos Starts -->
+                            <div class="col s12 m12 l12 xl12 leftside">
+								<!-- Contacts Starts -->
+                                <h6 class="font-weight-500 uppercase">Teléfono</h6>
+                                <span class="font-weight-300 second-font"><i class="fa fa-phone"></i> +34 635 21 22 08</span>
+								<h6 class="font-weight-500 uppercase">Correo electrónico</h6>
+								<span class="font-weight-300 second-font"><i class="fa fa-envelope"></i> <a href="mailto:jcrequeijopuente@gmail.com">jcrequeijopuente@gmail.com</a></span>
+								<!-- Contacts Ends -->
+								<!-- Social Media Profiles Starts -->
+                                <h6 class="font-weight-500 uppercase">Perfiles Sociales</h6>
+                                <div class="social">
+                                    <ul class="list-inline social social-intro center-align p-none">
+                                        <li class="facebook"><a href="https://www.facebook.com/jcrequeijopuente"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="twitter"><a href="https://twitter.com/JcRequeijo"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/jcrequeijopuente"><i class="fa fa-linkedin"></i></a></li>
+                                        <li class="github"><a href="https://github.com/jcrequeijopuente"><i class="fa fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+								<!-- Social Media Profiles Ends -->
+                            </div>
+							<!-- Contact Infos Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Expanded Contact Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Contact Section Ends -->
+            <!-- Portfolio Panel Items Starts -->
+            <div class="bl-panel-items" id="bl-panel-work-items">
+                <!-- Project Starts -->
+                <div data-panel="panel-cal">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#1!"><img class="responsive-img" src="images/projects/cal/1.jpg" alt="portada" ></a>
+                                <a class="carousel-item" href="#2!"><img class="responsive-img" src="images/projects/cal/2.jpg" alt="anteriores" ></a>
+                                <a class="carousel-item" href="#3!"><img class="responsive-img" src="images/projects/cal/3.jpg" alt="actuales" ></a>
+                                <a class="carousel-item" href="#4!"><img class="responsive-img" src="images/projects/cal/4.jpg" alt="galeria" ></a>
+                                <a class="carousel-item" href="#5!"><img class="responsive-img" src="images/projects/cal/5.jpg" alt="ficha" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Centro Andaluz de las Letras</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Cliente </span>: <span class="font-weight-400 uppercase">Agencia Andaluza de Instituciones Culturales</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Fecha </span>: <span class="font-weight-400 uppercase">2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Tecnologías</span> : <span class="font-weight-400 uppercase">php, drupal7, html, css, less, javascript, jquery, diseño responsive</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">El Centro Andaluz de las Letras es un organismo especializado en el fomento y la promoción de la creación literaria, el impulso de la lectura y la producción editorial en Andalucía. Entre sus líneas de actuación están la promoción de autores/as literarios en todo el territorio, desarrollo de actividades de fomento de la lectura, recuperación del patrimonio intelectual de Andalucía, formación, fomento y difusión de la creación literaria para autores noveles, impulso de la visibilidad de las mujeres en el ámbito de la creación literaria, etc ...</p>
+                            <a href="https://www.juntadeandalucia.es/cultura/caletras" target="_blank" class="waves-effect waves-light btn font-weight-500">consultar  <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+                <!-- Project Ends -->
+                <!-- Project Starts -->
+                <div data-panel="panel-bfa">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#1!"><img class="responsive-img" src="images/projects/bfa/1.jpg" alt="portada" ></a>
+                                <a class="carousel-item" href="#2!"><img class="responsive-img" src="images/projects/bfa/2.jpg" alt="anteriores" ></a>
+                                <a class="carousel-item" href="#3!"><img class="responsive-img" src="images/projects/bfa/3.jpg" alt="actuales" ></a>
+                                <a class="carousel-item" href="#4!"><img class="responsive-img" src="images/projects/bfa/4.jpg" alt="galeria" ></a>
+                                <a class="carousel-item" href="#5!"><img class="responsive-img" src="images/projects/bfa/5.jpg" alt="ficha" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Ballet Flamencn de Andalucía</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Cliente </span>: <span class="font-weight-400 uppercase">Agencia Andaluza de Instituciones Culturales</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Fecha </span>: <span class="font-weight-400 uppercase">2015</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Tecnologías</span> : <span class="font-weight-400 uppercase">php, drupal7, html, css, less, javascript, jquery, diseño responsive</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">El Ballet Flamenco de Andalucía, compañía institucional de danza de la Junta de Andalucía, el cual representa a esta comunidad y le pone cara a su arte más singular en escenarios de todo el mundo donde cosecha importantes logros como compañía artística —con gran éxito de público y crítica— que han sido reconocidos en su historia por ejemplo con el Premio Nacional de Coreografía o un Premio Max a la mejor interpretación femenina de danza.</p>
+                            <a href="https://www.juntadeandalucia.es/cultura/flamenco/ballet-flamenco-andalucia" target="_blank" class="waves-effect waves-light btn font-weight-500">consultar  <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+                <!-- Project Ends -->
+                <!-- Project Starts -->
+                <div data-panel="panel-iaf">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#1!"><img class="responsive-img" src="images/projects/iaf/1.jpg" alt="portada" ></a>
+                                <a class="carousel-item" href="#2!"><img class="responsive-img" src="images/projects/iaf/2.jpg" alt="buscador" ></a>
+                                <a class="carousel-item" href="#3!"><img class="responsive-img" src="images/projects/iaf/3.jpg" alt="agenda" ></a>
+                                <a class="carousel-item" href="#4!"><img class="responsive-img" src="images/projects/iaf/4.jpg" alt="ficha" ></a>
+                                <a class="carousel-item" href="#5!"><img class="responsive-img" src="images/projects/iaf/5.jpg" alt="visor" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Instituto Andaluz del Flamenco</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Cliente </span>: <span class="font-weight-400 uppercase">Agencia Andaluza de Instituciones Culturales</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Fecha </span>: <span class="font-weight-400 uppercase">2015</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Tecnologías</span> : <span class="font-weight-400 uppercase">php, drupal7, html, css, less, javascript, jquery, diseño responsive</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">El Instituto Andaluz del Flamenco. Es el organismo creado en 2005 por la Consejería de Cultura de la Junta de Andalucía para aunar todas las políticas en materia de flamenco emprendidas por la Administración. Vela por un arte que es Patrimonio de la Humanidad y que el artículo 68 del Estatuto de Autonomía define como un "elemento singular del patrimonio cultural andaluz".</p>
+                            <a href="https://www.juntadeandalucia.es/cultura/flamenco/" target="_blank" class="waves-effect waves-light btn font-weight-500">consultar  <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+                <!-- Project Ends -->
+                <!-- Project Starts -->
+                <div data-panel="panel-cdaea">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#1!"><img class="responsive-img" src="images/projects/cdaea/1.jpg" alt="portada" ></a>
+                                <a class="carousel-item" href="#2!"><img class="responsive-img" src="images/projects/cdaea/2.jpg" alt="agenda" ></a>
+                                <a class="carousel-item" href="#3!"><img class="responsive-img" src="images/projects/cdaea/3.jpg" alt="evento" ></a>
+                                <a class="carousel-item" href="#4!"><img class="responsive-img" src="images/projects/cdaea/4.jpg" alt="fichaautor" ></a>
+                                <a class="carousel-item" href="#5!"><img class="responsive-img" src="images/projects/cdaea/5.jpg" alt="servicios" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Centro de Documentación de las Artes Escénicas de Andalucía</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Cliente </span>: <span class="font-weight-400 uppercase">Agencia Andaluza de Instituciones Culturales</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Fecha </span>: <span class="font-weight-400 uppercase">2015</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Tecnologías</span> : <span class="font-weight-400 uppercase">php, drupal7, html, css, less, javascript, jquery, diseño responsive</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Tras 20 años de funcionamiento, el Centro de Documentación de las Artes Escénicas de Andalucía de la Consejería de Cultura, mantiene una clara vocación de servicio público con las funciones específicas de localizar, recoger, conservar, analizar y difundir la documentación e información del teatro y la danza en Andalucía. Las líneas maestras de trabajo se concretan, por una parte, en actuaciones basadas en la adquisición, investigación, tratamiento y conservación del patrimonio escénico documental, fijando la memoria del hecho escénico.</p>
+                            <a href="https://www.juntadeandalucia.es/cultura/redportales/cdaea/" target="_blank" class="waves-effect waves-light btn font-weight-500">consultar  <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+                <!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-elektra">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#1!"><img class="responsive-img" src="images/projects/elektra/1.jpg" alt="colecciones" ></a>
+                                <a class="carousel-item" href="#2!"><img class="responsive-img" src="images/projects/elektra/2.jpg" alt="portada" ></a>
+                                <a class="carousel-item" href="#3!"><img class="responsive-img" src="images/projects/elektra/3.jpg" alt="ficha" ></a>
+                                <a class="carousel-item" href="#4!"><img class="responsive-img" src="images/projects/elektra/4.jpg" alt="exposición" ></a>
+                                <a class="carousel-item" href="#5!"><img class="responsive-img" src="images/projects/elektra/5.jpg" alt="buscador" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Archivo Digital de las Artes Escénicas de Andalucía. Elektra</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Cliente </span>: <span class="font-weight-400 uppercase">Agencia Andaluza de Instituciones Culturales</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Fecha </span>: <span class="font-weight-400 uppercase">2015</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Tecnologías</span> : <span class="font-weight-400 uppercase">java, spring, struts, hibernate, html, css, javascript, jquery</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Elektra es el Archivo Digital de las Artes Escénicas de Andalucía que contiene un conjunto organizado de documentación gráfica (programas, carteles, bocetos de escenografía y vestuario, fotografías, noticias de prensa, audiovisuales, ...) que conforman la memoria de las artes escénicas de nuestra comunidad. En ella se recogen los documentos relacionados con cualquier actividad de Teatro o Danza que tienen un interés especial para el conocimiento, la puesta en valor y la difusión de las Artes Escénicas en particular y de la Cultura andaluza en general.</p>
+                            <a href="http://www.juntadeandalucia.es/cultura/cdaea/elektra" target="_blank" class="waves-effect waves-light btn font-weight-500">consultar  <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+                <!-- Portfolio Navigation Starts -->
+                <nav>
+                    <!-- Previous Work Icon Starts -->
+                    <span class="control-button bl-previous-work uppercase font-weight-700"><i class="fa fa-chevron-left"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                    <!-- Close Work Icon Starts -->
+                    <span class="control-button fa fa-close fa-2x bl-icon-close center-align" id="bl-icon-close"></span>
+                    <!-- Close Work Icon Ends -->
+                    <!-- Next Work Icon Starts -->
+                    <span class="control-button bl-next-work uppercase font-weight-700"><i class="fa fa-chevron-right"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                </nav>
+                <!-- Portfolio Navigation Ends -->
+            </div>
+            <!-- Portfolio Panel Items Ends -->
+        </div>
+    </div>
+    <!-- Wrapper Ends -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.animatedheadline.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
